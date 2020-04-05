@@ -1,0 +1,257 @@
+{
+  "keyboards": [
+    {
+      "id": 1,
+      "name": "Titanum TKR101 Standard Keyboard",
+      "image": "assets/keyboard/1.png",
+      "price": 500,
+      "description": "\nFAVPNG.com\nCat Play And Toys Amazon.com Mouse, PNG, 512x512px, Cat, Amazon "
+    },
+    {
+      "id": 2,
+      "name": "SVEN Multimedia KB-S300",
+      "image": "assets/keyboard/2.png",
+      "price": 545,
+      "description": "\nFAVPNG.com\nCat Play And Toys Amazon.com Mouse, PNG, 512x512px, Cat, Amazon "
+    },
+    {
+      "id": 3,
+      "name": "SVEN Multimedia KB-S700",
+      "image": "assets/keyboard/3.png",
+      "price": 576,
+      "description": "\nFAVPNG.com\nCat Play And Toys Amazon.com Mouse, PNG, 512x512px, Cat, Amazon "
+    },
+    {
+      "id": 4,
+      "name": "KINGSTON Multimedia KB-S700",
+      "image": "assets/keyboard/3.png",
+      "price": 576,
+      "description": "\nFAVPNG.com\nCat Play And Toys Amazon.com Mouse, PNG, 512x512px, Cat, Amazon "
+    }
+  ],
+  "monitors": [
+    {
+      "id": 1,
+      "name": "PHILIPS LED 203V5LSB26",
+      "frequency": "60 Гц",
+      "diagonal": "19.5\"",
+      "resolution": "1600 x 900",
+      "image": "assets/monitor/1.png",
+      "price": 500,
+      "description": "\nFAVPNG.com\nCat Play And Toys Amazon.com Mouse, PNG, 512x512px, Cat, Amazon "
+    },
+    {
+      "id": 2,
+      "name": "AOC \"22B1HS\"",
+      "frequency": "60 Гц",
+      "diagonal": "21.5\"",
+      "resolution": "1920x1080",
+      "image": "assets/monitor/2.png",
+      "price": 500,
+      "description": "\nFAVPNG.com\nCat Play And Toys Amazon.com Mouse, PNG, 512x512px, Cat, Amazon "
+    },
+    {
+      "id": 3,
+      "name": "AOC \"22bf1HS\"",
+      "frequency": "60 Гц",
+      "diagonal": "21.5\"",
+      "resolution": "1920x1080",
+      "image": "assets/monitor/3.png",
+      "price": 500,
+      "description": "\nFAVPNG.com\nCat Play And Toys Amazon.com Mouse, PNG, 512x512px, Cat, Amazon "
+    }
+  ],
+  "motherboards": [
+    {
+      "id": 1,
+      "name": "MB ASRock A320M-DVS R4.0 mATX ",
+      "format": "mATX",
+      "socket": "AM4",
+      "memoryType": "ddr4",
+      "memorySlots": 2,
+      "image": "assets/motherboard/1.png",
+      "price": 500,
+      "description": "\nFAVPNG.com\nCat Play And Toys Amazon.com Mouse, PNG, 512x512px, Cat, Amazon "
+    },
+    {
+      "id": 2,
+      "name": "Biostar A68MDE",
+      "format": "mATX",
+      "socket": "FM2",
+      "memoryType": "ddr3",
+      "memorySlots": 2,
+      "image": "assets/motherboard/2.png",
+      "price": 500,
+      "description": "\nFAVPNG.com\nCat Play And Toys Amazon.com Mouse, PNG, 512x512px, Cat, Amazon "
+    },
+    {
+      "id": 3,
+      "name": "Biostar A68M",
+      "format": "mATX",
+      "socket": "FM2",
+      "memoryType": "ddr3",
+      "memorySlots": 2,
+      "image": "assets/motherboard/3.png",
+      "price": 500,
+      "description": "\nFAVPNG.com\nCat Play And Toys Amazon.com Mouse, PNG, 512x512px, Cat, Amazon "
+    }
+  ],
+  "mouses": [
+    {
+      "id": 1,
+      "name": "Extreme BUNGEE XM110K",
+      "image": "assets/mouse/1.png",
+      "price": 500,
+      "description": "\nFAVPNG.com\nCat Play And Toys Amazon.com Mouse, PNG, 512x512px, Cat, Amazon "
+    },
+    {
+      "id": 2,
+      "name": "Titanum HORNET TM103K",
+      "image": "assets/mouse/2.png",
+      "price": 500,
+      "description": "\nFAVPNG.com\nCat Play And Toys Amazon.com Mouse, PNG, 512x512px, Cat, Amazon "
+    },
+    {
+      "id": 3,
+      "name": "Titanum VAR TM103",
+      "image": "assets/mouse/3.png",
+      "price": 500,
+      "description": "\nFAVPNG.com\nCat Play And Toys Amazon.com Mouse, PNG, 512x512px, Cat, Amazon "
+    }
+  ],
+  "processors": [
+    {
+      "id": 1,
+      "name": "AMD A-Series A6-9400",
+      "frequency": "3.4-3.7GHz (2C/2T)",
+      "socket": "AM4",
+      "power": "65w",
+      "core": 2,
+      "image": "assets/processor/1.png",
+      "price": 500,
+      "description": "\nFAVPNG.com\nCat Play And Toys Amazon.com Mouse, PNG, 512x512px, Cat, Amazon "
+    },
+    {
+      "id": 2,
+      "name": "AMD Athlon X4 830 OEM",
+      "frequency": "3.0 GHz",
+      "socket": "FM2+",
+      "power": "65w",
+      "core": 4,
+      "image": "assets/processor/2.png",
+      "price": 500,
+      "description": "\nFAVPNG.com\nCat Play And Toys Amazon.com Mouse, PNG, 512x512px, Cat, Amazon "
+    },
+    {
+      "id": 3,
+      "name": "AMD Athlon R4 500 ",
+      "frequency": "3.0 GHz",
+      "socket": "FM2+",
+      "power": "65w",
+      "core": 4,
+      "image": "assets/processor/3.png",
+      "price": 500,
+      "description": "\nFAVPNG.com\nCat Play And Toys Amazon.com Mouse, PNG, 512x512px, Cat, Amazon "
+    }
+  ],
+  "ram": [
+    {
+      "id": 1,
+      "name": "DDR3-1333 SODIMM PC10600 CL9",
+      "frequency": "1333 mhz",
+      "rang": "single",
+      "memoryType": "ddr3",
+      "volume": "1GB",
+      "image": "assets/ram/1.png",
+      "price": 500,
+      "description": "\nFAVPNG.com\nCat Play And Toys Amazon.com Mouse, PNG, 512x512px, Cat, Amazon "
+    },
+    {
+      "id": 2,
+      "name": "DDR4-2400 GOODRAM, PC19200, CL17, 1.2V",
+      "frequency": "2400 mhz",
+      "rang": "single",
+      "memoryType": "ddr4",
+      "volume": "4GB",
+      "image": "assets/ram/2.png",
+      "price": 500,
+      "description": "\nFAVPNG.com\nCat Play And Toys Amazon.com Mouse, PNG, 512x512px, Cat, Amazon "
+    },
+    {
+      "id": 3,
+      "name": "DDR4-2400 GOODRAM, PC7600, CL17, 1.5V",
+      "frequency": "2400 mhz",
+      "rang": "single",
+      "memoryType": "ddr4",
+      "volume": "4GB",
+      "image": "assets/ram/3.png",
+      "price": 500,
+      "description": "\nFAVPNG.com\nCat Play And Toys Amazon.com Mouse, PNG, 512x512px, Cat, Amazon "
+    }
+  ],
+  "rom": [
+    {
+      "id": 1,
+      "name": "HDD 250GB Seagate DB35.4 (ST3250310CS)",
+      "form-factor": "3.5'",
+      "speed": "7200 rpm",
+      "volume": "250GB",
+      "image": "assets/rom/1.png",
+      "price": 500,
+      "description": "\nFAVPNG.com\nCat Play And Toys Amazon.com Mouse, PNG, 512x512px, Cat, Amazon "
+    },
+    {
+      "id": 2,
+      "name": "HDD 320GB Western Digital WD3200AAJS Caviar® Blue™",
+      "form-factor": "3.5'",
+      "speed": "7200 rpm",
+      "volume": "320GB",
+      "image": "assets/rom/2.png",
+      "price": 500,
+      "description": "\nFAVPNG.com\nCat Play And Toys Amazon.com Mouse, PNG, 512x512px, Cat, Amazon "
+    },
+    {
+      "id": 3,
+      "name": "HDD 320GB Western Digital WD3200AANM Caviar® Red™",
+      "form-factor": "3.5'",
+      "speed": "7200 rpm",
+      "volume": "320GB",
+      "image": "assets/rom/3.png",
+      "price": 501,
+      "description": "\nFAVPNG.com\nCat Play And Toys Amazon.com Mouse, PNG, 512x512px, Cat, Amazon "
+    }
+  ],
+  "videocards": [
+    {
+      "id": 1,
+      "name": "MSI GeForce GT 710 (GT 710 2GD3 LP)",
+      "speed": "954 МГц",
+      "ramSpeed": "954 МГц",
+      "ram": "2GB",
+      "image": "assets/videocard/1.png",
+      "price": 510,
+      "description": "\nFAVPNG.com\nCat Play And Toys Amazon.com Mouse, PNG, 512x512px, Cat, Amazon "
+    },
+    {
+      "id": 2,
+      "name": "ZOTAC GeForce GT710 Zone Edition",
+      "speed": "1600 МГц",
+      "ramSpeed": "954 МГц",
+      "ram": "2GB",
+      "image": "assets/videocard/2.png",
+      "price": 500,
+      "description": "\nFAVPNG.com\nCat Play And Toys Amazon.com Mouse, PNG, 512x512px, Cat, Amazon "
+    },
+    {
+      "id": 3,
+      "name": "ZADIAC GeForce GT710 ",
+      "speed": "1600 МГц",
+      "ramSpeed": "954 МГц",
+      "ram": "2GB",
+      "image": "assets/videocard/3.png",
+      "price": 505,
+      "description": "\nFAVPNG.com\nCat Play And Toys Amazon.com Mouse, PNG, 512x512px, Cat, Amazon "
+    }
+  ],
+  "description": "\nFAVPNG.com\nCat Play And Toys Amazon.com Mouse, PNG, 512x512px, Cat, Amazon "
+}
