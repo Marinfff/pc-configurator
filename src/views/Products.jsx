@@ -30,7 +30,7 @@ class Products extends React.Component {
   }
 
   componentDidMount() {
-    this.loadData()
+    this.loadData() // un fel de mounted care face incarcarea datelor
   }
 
   filteredItems = () => {
@@ -63,16 +63,16 @@ class Products extends React.Component {
 
   loadData = async () => {
     this.setState({
-      items: (await import("../server/components.json")).default
+      items: (await import("../server/components.json")).default // incarcam json
     })
   }
-
+ // cind apasam pe element punem in state elementrul pe care am facut click
   changeList = (selectedComponent) => {
     this.setState({
       selectedComponent
     })
   }
-
+//adaugarea in store\ cos
   addToCart = (product) => {
     this.props.addToCart({
       product,
@@ -143,6 +143,8 @@ class Products extends React.Component {
           </List>
         </div>
         <div className="second-grid">
+          {/*itemi filtrati in dependenta de ce item ales*/}
+          
           {this.filteredItems()[this.state.selectedComponent]?.map((item, key) =>
             <Card key={key}>
               <CardContent>

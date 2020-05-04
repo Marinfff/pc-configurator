@@ -16,7 +16,7 @@ class App extends React.Component {
     showProducts: false,
     anchorEl: null
   }
-
+// ancor leaga elementul cu modal
   handleClick = (event) => {
     this.setState({
       anchorEl: event.currentTarget
@@ -39,7 +39,7 @@ class App extends React.Component {
             </IconButton>
 
             <span><b>Configurator</b> PC</span>
-
+{/* aici sunt linkurile  reack tag link      vue router-lick*/}
             <div className="action-buttons">
               <Button color="inherit">
                 <Link to="/">Products</Link>
@@ -67,7 +67,7 @@ class App extends React.Component {
           </Toolbar>
         </AppBar>
         <div className="container">
-
+ {/*// asta este router    swith */}
           <Switch>
             <Route exact path="/">
               <Products/>
