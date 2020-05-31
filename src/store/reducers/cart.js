@@ -14,7 +14,7 @@ export default function (state = initialState, {type, payload}) {
         } else {
           const product = {
             quantity: 1,
-            ...payload // obiectul care transmis in store pe click la card product
+            ...payload
           }
           cart.splice(itemIndex, 1, product)
         }
@@ -34,10 +34,9 @@ export default function (state = initialState, {type, payload}) {
       cart.splice(payload, 1)
       return cart
     }
-   
+
     case MODIFY_PRODUCT: {
       const cart = state.slice()
-       // payload avem index si quantity  | luam  state[payload.index] (element curent ) luam cimpurile de acolo si punem in item
       cart.splice(payload.index, 1, {
         ...state[payload.index],
         quantity: payload.itemQuantity

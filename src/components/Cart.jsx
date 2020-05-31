@@ -31,7 +31,7 @@ class Cart extends React.Component {
   }
 
   totalPrice = () => {
-    return this.props.cart.reduce((sum, item) => (item.quantity * item.product.price) + sum, 0) // tot ce este cu this.props este legat cu store
+    return this.props.cart.reduce((sum, item) => (item.quantity * item.product.price) + sum, 0)
   }
 
   modifyProduct = (index, e) => {
@@ -55,10 +55,10 @@ class Cart extends React.Component {
     e.preventDefault()
 
     if (this.form.current.reportValidity()) {
-      const orders = JSON.parse(localStorage.getItem('orders')) || [] // scoate continutul din local storage , daca nui nimic pune masiv gol
+      const orders = JSON.parse(localStorage.getItem('orders')) || []
 
       const order = {
-        items: this.props.cart,//continutul la cart din store
+        items: this.props.cart,
         price: this.totalPrice(),
         total: this.totalPrice() - this.getPromo(),
         user: {
@@ -68,21 +68,21 @@ class Cart extends React.Component {
           phone: this.state.phone,
           promo: this.state.promo
         },
-        date: new Date().toISOString().split('T')[0] // primim data
+        date: new Date().toISOString().split('T')[0]
       }
       orders.push(order)
-      localStorage.setItem('orders', JSON.stringify(orders)) //face push in masiv apoi in local storage
-      document.location.reload() //update la pagina dupa checkout
+      localStorage.setItem('orders', JSON.stringify(orders))
+      document.location.reload()
     }
   };
 
   render() {
     return (
       <>
-        {this.props.cart.length // validare daca cosul este gol atunci se executa codul   tot if se face prin operator ternar
+        {this.props.cart.length
           ? <div className="store-card">
             <List dense>
-              {this.props.cart.map((item, index) => {  // map = ciclu
+              {this.props.cart.map((item, index) => {
                 const labelId = `checkbox-list-secondary-label-${index}`;
                 return (
                   <ListItem key={index} button>
@@ -96,7 +96,7 @@ class Cart extends React.Component {
                     <ListItemSecondaryAction>
                       <div>
                         <TextField id="standard-basic"
-                                   onChange={(e) => this.modifyProduct(index, e)} //== modifyProduct(index, $event)
+                                   onChange={(e) => this.modifyProduct(index, e)}
                                    value={item.quantity} placeholder="1" type="number"
                                    className="count"/> x {item.product.price} $
 
@@ -193,10 +193,10 @@ class Cart extends React.Component {
     );
   }
 }
-//legatura componentului cu store
+
 export default connect(
   state => ({
-    cart: state.cart //primirea datelor  this.props cart => state.card
+    cart: state.cart
   }),
   dispatch => ({
     deleteProduct: (payload) => {
@@ -207,5 +207,3 @@ export default connect(
     }
   })
 )(Cart);
-// dispatch cheama din store meetoda
-//payload datele care se transmit
